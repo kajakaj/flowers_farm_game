@@ -7,7 +7,7 @@ This is a command line game in which user can create multiple *farmers* and on t
 ```console  
 javac -d bin -cp 'lib/*' src/dao/*.java src/farm/*.java src/farmer/*.java src/market/*.java src/panels/*.java src/plants/*.java
 ```
-3. Run `MainPanel.class`:
+3. Run `MainPanel`:
 ```console
 java -cp 'lib/*:bin' src.panels.MainPanel
 ```
